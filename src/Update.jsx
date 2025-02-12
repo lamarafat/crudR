@@ -22,7 +22,7 @@ export default function Update() {
                 userName:value.userName
             }
         );
-        if(response.statuse ===200){
+        if(response.status ===200){
             Navigate('/user');
         }
     }
